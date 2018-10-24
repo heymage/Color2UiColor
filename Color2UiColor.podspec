@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |spec|
   spec.name             = 'Color2UiColor'
-  spec.version          = '0.1.1'
-  spec.summary          = 'Color2UiColor is a color converter.'
+  spec.version          = '0.1.2'
+  spec.summary          = 'Color2UiColor is a hex, or rgb, to an UIColor converter.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
                         Color2UiColor provides two methods to convert hex or rgb value to an UIColor object.
                             DESC
 
-  spec.homepage         = 'http://mrcgrhrdt.de'
+  spec.homepage         = 'https://gitlab.com/mrcgrhrdt/color2uicolor'
   # spec.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   spec.license          = { :type => 'MIT', :file => 'LICENSE' }
   spec.author           = { 'Maurice Gerhardt' => 'mrcgrhrdt@gmail.com' }
