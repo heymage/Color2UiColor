@@ -6,10 +6,12 @@
 import Foundation
 import UIKit
 
-struct Color2UiColor {
+public struct Color2UiColor {
+    
+    public init() { }
     
     // Convert a hex color representation to an UIColor. With our without a leading '#'
-    func hexToUIColor(hex: String) -> UIColor {
+    public func hexToUIColor(hex: String) -> UIColor {
         var hex = hex
         if hex.starts(with: "#") { hex.removeFirst() }
         
@@ -24,7 +26,7 @@ struct Color2UiColor {
     }
     
     // Convert rgb values to an UIColor.
-    func rgbToUIColor(r: Int, g: Int, b: Int) -> UIColor {
+    public func rgbToUIColor(r: Int, g: Int, b: Int) -> UIColor {
         let r = CGFloat( round((Double(r) / 255) * 100) / 100 )
         let g = CGFloat( round((Double(g) / 255) * 100) / 100 )
         let b = CGFloat( round((Double(b) / 255) * 100) / 100 )

@@ -17,7 +17,9 @@ Pod::Spec.new do |spec|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  spec.description      = 'Color2UiColor provides two methods to convert hex or rgb value to an UIColor object.'
+  spec.description      =   <<-DESC
+                        Color2UiColor provides two methods to convert hex or rgb value to an UIColor object.
+                            DESC
 
   spec.homepage         = 'http://mrcgrhrdt.de'
   # spec.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'

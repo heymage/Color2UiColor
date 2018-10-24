@@ -11,19 +11,33 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+- iOS8
+
 ## Installation
 
-Color2UiColor is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+**Color2UiColor** is available through [CocoaPods](https://cocoapods.org). To install it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'Color2UiColor'
 ```
 
+## Usage
+
+```swift
+import Color2UiColor
+
+// Initialize an object of Color2UiColor
+let c2uic = Color2UiColor()
+
+// Use 'hexToUIColor(hex: String)' or 'rgbToUIColor(r: Int, g: Int, b: Int)' where you want
+button.tintColor = c2uic.hexToUIColor(hex: "#b10034")
+```
+
 ## Author
 
-Maurice Gerhardt, mrcgrhrdt@gmail.com
+**Name**: Maurice Gerhardt
+**Twitter**: @mrcgrhrdt
 
 ## License
 
-Color2UiColor is available under the MIT license. See the LICENSE file for more info.
+**Color2UiColor** is available under the MIT license. See the LICENSE file for more info.

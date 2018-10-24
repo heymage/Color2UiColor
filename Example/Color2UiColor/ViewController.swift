@@ -10,13 +10,21 @@ import UIKit
 import Color2UiColor
 
 class ViewController: UIViewController {
+
+    @IBOutlet weak var buttonHex: UIButton!
+    @IBOutlet weak var buttonRgb: UIButton!
     
-    @IBOutlet weak var button: UIButton!
+    let c2uic = Color2UiColor()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Do any additional setup after loading the view, typically from a nib.
+        // With one simple line you can change, for e.g., the color of a button tint with a hex value. No matter if leading hashtag exists
+        buttonHex.tintColor = c2uic.hexToUIColor(hex: "#b10034")
+        
+        // Or with rgb values
+        buttonRgb.tintColor = c2uic.rgbToUIColor(r: 101, g: 210, b: 110)
+        
     }
 
     override func didReceiveMemoryWarning() {
