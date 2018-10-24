@@ -30,13 +30,14 @@ import Color2UiColor
 let c2uic = Color2UiColor()
 
 // Use 'hexToUIColor(hex: String)' or
-'rgbToUIColor(r: Int, g: Int, b: Int)' where you want
+// 'rgbToUIColor(r: Int, g: Int, b: Int)' where you want
 button.tintColor = c2uic.hexToUIColor(hex: "#b10034")
 ```
 
 ## Author
 
 **Name**: Maurice Gerhardt
+
 **Twitter**: @mrcgrhrdt
 
 ## License
