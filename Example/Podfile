@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Color2UiColor_Example' do
+  pod 'Color2UiColor', :path => '../'
+
+  target 'Color2UiColor_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
