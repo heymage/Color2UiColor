@@ -10,13 +10,13 @@
 		037B2345FDAAFA40B689EA0E528972D8 /* Pods-Color2UiColor_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D11180A8B7DA492F220470EECC4C9404 /* Pods-Color2UiColor_Tests-dummy.m */; };
 		0EA4B515F2352BB8002C814CB6994BD0 /* Pods-Color2UiColor_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 831AA3732E1023E2CFA400183774041E /* Pods-Color2UiColor_Example-dummy.m */; };
 		2B2198C1AA5A702AA3019D8F49876398 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		58CDE4A92180A27A0022F14F /* Color2UiColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CDE4A82180A27A0022F14F /* Color2UiColor.swift */; };
 		644CF016C90C38F8647DF16156E0E40B /* Color2UiColor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D57009ABECC744FE80E03BC55CEFB6 /* Color2UiColor-dummy.m */; };
 		75CE6273248868D894EA81101DB55045 /* Pods-Color2UiColor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC39436CB95DFED201019B7A39E9F516 /* Pods-Color2UiColor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A36FCAB9A8ECEC9897FE6A8BA6C78F72 /* Pods-Color2UiColor_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA68506B13EA63619CC37EC8C5300DC /* Pods-Color2UiColor_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B63FF87E72F54DB2EEFED4E6FED1C865 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		DE329338C3A2DCF347AEE09E053AF314 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		E218DFCD8A80C15D0433985E4F8F049A /* Color2UiColor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2A1F73EB1C9A1A9F9B333BA2E8DAEB7 /* Color2UiColor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F0BF307BFEE55E41F4AD5EC4F2B1D7F0 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF91CB2716B5B949CBAD2F9F3B63BF1F /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,33 +42,33 @@
 		1E33B6D8827D580011E7DE2E17793105 /* Color2UiColor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Color2UiColor-prefix.pch"; sourceTree = "<group>"; };
 		23C540CFAD1597A500AAD14F1E60DC0A /* Pods-Color2UiColor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Color2UiColor_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		24D57009ABECC744FE80E03BC55CEFB6 /* Color2UiColor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Color2UiColor-dummy.m"; sourceTree = "<group>"; };
-		2D6F284595BA4B153C7FD9CA1D80F413 /* Pods_Color2UiColor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Color2UiColor_Example.framework; path = "Pods-Color2UiColor_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D6F284595BA4B153C7FD9CA1D80F413 /* Pods_Color2UiColor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Color2UiColor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		32286CA18983EB31995D683ADBF74A38 /* Pods-Color2UiColor_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Color2UiColor_Example-frameworks.sh"; sourceTree = "<group>"; };
 		32C13E6A119CB27A4691A1C5B8B5EBD0 /* Pods-Color2UiColor_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Color2UiColor_Example-resources.sh"; sourceTree = "<group>"; };
-		3EEDFDBFFA7C1052502F992BEAEF1C07 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3EEDFDBFFA7C1052502F992BEAEF1C07 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		492D8174D99265BF8E0EB99EFCD78741 /* Pods-Color2UiColor_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Color2UiColor_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4A23DC5D0B7A7F452EE8FA92A10239F9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B670F322000B4362FF8F657E6E4915A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4B670F322000B4362FF8F657E6E4915A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		58CDE4A82180A27A0022F14F /* Color2UiColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color2UiColor.swift; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		642D839EE6A6C92877E17505A1CEAF97 /* Color2UiColor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Color2UiColor.framework; path = Color2UiColor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		642D839EE6A6C92877E17505A1CEAF97 /* Color2UiColor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Color2UiColor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		831AA3732E1023E2CFA400183774041E /* Pods-Color2UiColor_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Color2UiColor_Example-dummy.m"; sourceTree = "<group>"; };
 		88DF62AF915EF8CB00E65872B1808DCD /* Pods-Color2UiColor_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Color2UiColor_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		91A9CA9004D55DA18808DD04A90F0A10 /* Pods-Color2UiColor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Color2UiColor_Tests.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AC39436CB95DFED201019B7A39E9F516 /* Pods-Color2UiColor_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Color2UiColor_Tests-umbrella.h"; sourceTree = "<group>"; };
 		BCA68506B13EA63619CC37EC8C5300DC /* Pods-Color2UiColor_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Color2UiColor_Example-umbrella.h"; sourceTree = "<group>"; };
 		BD7CD1F1F0286A842170F72ECBC73F3C /* Color2UiColor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Color2UiColor.xcconfig; sourceTree = "<group>"; };
 		BFD9FDDA108294EB9B92BAA341C33DCA /* Pods-Color2UiColor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Color2UiColor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C28CE6EB1B3928718D2F52115F653363 /* Color2UiColor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Color2UiColor.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C28CE6EB1B3928718D2F52115F653363 /* Color2UiColor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = Color2UiColor.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C2A1F73EB1C9A1A9F9B333BA2E8DAEB7 /* Color2UiColor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Color2UiColor-umbrella.h"; sourceTree = "<group>"; };
 		C5C2F8305553AAD28FEE035348E4AA42 /* Pods-Color2UiColor_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Color2UiColor_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C903002FB661B1F2596CB3214F0C2036 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD668E9035003B25A043C86A9E5CBC4F /* Color2UiColor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Color2UiColor.modulemap; sourceTree = "<group>"; };
-		CF91CB2716B5B949CBAD2F9F3B63BF1F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Color2UiColor/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		D11180A8B7DA492F220470EECC4C9404 /* Pods-Color2UiColor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Color2UiColor_Tests-dummy.m"; sourceTree = "<group>"; };
 		D377516990BD3E775858B88E0D4DE9C7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAF01FEAEAB81300923885C3BC88E614 /* Pods-Color2UiColor_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Color2UiColor_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E64DF8E1C04782DD29941DC02A167259 /* Pods_Color2UiColor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Color2UiColor_Tests.framework; path = "Pods-Color2UiColor_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E64DF8E1C04782DD29941DC02A167259 /* Pods_Color2UiColor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Color2UiColor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC362F8F208B85553440B9859DC60457 /* Pods-Color2UiColor_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Color2UiColor_Example.modulemap"; sourceTree = "<group>"; };
 		EEF91F5F049AD45D68A0C8D39C2E0348 /* Pods-Color2UiColor_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Color2UiColor_Tests-resources.sh"; sourceTree = "<group>"; };
 		F4B1478E70E637C8A09D01328B75A4C7 /* Pods-Color2UiColor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Color2UiColor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -122,9 +122,9 @@
 		62FE98C75F9E2D6E96A0AEC2C4B35F1E /* Color2UiColor */ = {
 			isa = PBXGroup;
 			children = (
-				CF91CB2716B5B949CBAD2F9F3B63BF1F /* ReplaceMe.swift */,
 				95975F3AAB5C457DDD943045167AE4B9 /* Pod */,
 				FDE7094992AFAB6D31D0E7B15FA77C31 /* Support Files */,
+				58CDE4A82180A27A0022F14F /* Color2UiColor.swift */,
 			);
 			name = Color2UiColor;
 			path = ../..;
@@ -321,6 +321,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					4883027388CA4AD9E699DBCF1C2C9919 = {
+						LastSwiftMigration = 1000;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -386,8 +391,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58CDE4A92180A27A0022F14F /* Color2UiColor.swift in Sources */,
 				644CF016C90C38F8647DF16156E0E40B /* Color2UiColor-dummy.m in Sources */,
-				F0BF307BFEE55E41F4AD5EC4F2B1D7F0 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,6 +545,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD7CD1F1F0286A842170F72ECBC73F3C /* Color2UiColor.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -636,6 +642,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD7CD1F1F0286A842170F72ECBC73F3C /* Color2UiColor.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -656,8 +663,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -727,8 +733,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
