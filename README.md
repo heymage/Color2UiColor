@@ -1,6 +1,5 @@
 # Color2UiColor
 
-[![CI Status](https://img.shields.io/travis/Maurice Gerhardt/Color2UiColor.svg?style=flat)](https://travis-ci.org/Maurice Gerhardt/Color2UiColor)
 [![Version](https://img.shields.io/cocoapods/v/Color2UiColor.svg?style=flat)](https://cocoapods.org/pods/Color2UiColor)
 [![License](https://img.shields.io/cocoapods/l/Color2UiColor.svg?style=flat)](https://cocoapods.org/pods/Color2UiColor)
 [![Platform](https://img.shields.io/cocoapods/p/Color2UiColor.svg?style=flat)](https://cocoapods.org/pods/Color2UiColor)
@@ -29,8 +28,7 @@ import Color2UiColor
 // Initialize an object of Color2UiColor
 let c2uic = Color2UiColor()
 
-// Use 'hexToUIColor(hex: String)' or
-// 'rgbToUIColor(r: Int, g: Int, b: Int)' where you want
+// Use 'hexToUIColor(hex: String)' or 'rgbToUIColor(r: Int, g: Int, b: Int)' where you want
 button.tintColor = c2uic.hexToUIColor(hex: "#b10034")
 ```
 
