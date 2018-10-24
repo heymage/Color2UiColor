@@ -1,0 +1,6 @@
+framework module Color2UiColor {
+  umbrella header "Color2UiColor-umbrella.h"
+
+  export *
+  module * { export * }
+}

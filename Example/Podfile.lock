@@ -1,0 +1,16 @@
+PODS:
+  - Color2UiColor (0.1.0)
+
+DEPENDENCIES:
+  - Color2UiColor (from `../`)
+
+EXTERNAL SOURCES:
+  Color2UiColor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Color2UiColor: c3c2305d7186d27c3ebb4ccba1869bb7a9e24031
+
+PODFILE CHECKSUM: 3b65d0a705799afff5b00dbc9b4e8d5f346e311a
+
+COCOAPODS: 1.5.3

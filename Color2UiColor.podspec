@@ -6,10 +6,10 @@
 # To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
 #
 
-Pod::Spec.new do |s|
-  s.name             = 'Color2UiColor'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of Color2UiColor.'
+Pod::Spec.new do |spec|
+  spec.name             = 'Color2UiColor'
+  spec.version          = '0.1.0'
+  spec.summary          = 'Color2UiColor is a color converter.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,26 +17,25 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  spec.description      = 'Color2UiColor provides two methods to convert hex or rgb value to an UIColor object.'
 
-  s.homepage         = 'https://github.com/Maurice Gerhardt/Color2UiColor'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Maurice Gerhardt' => 'mrcgrhrdt@gmail.com' }
-  s.source           = { :git => 'https://github.com/Maurice Gerhardt/Color2UiColor.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  spec.homepage         = 'http://mrcgrhrdt.de'
+  # spec.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  spec.license          = { :type => 'MIT', :file => 'LICENSE' }
+  spec.author           = { 'Maurice Gerhardt' => 'mrcgrhrdt@gmail.com' }
+  spec.source           = { :git => 'https://gitlab.com/mrcgrhrdt/color2uicolor.git', :tag => spec.version.to_s }
+  spec.social_media_url = 'https://twitter.com/mrcgrhrdt'
 
-  s.ios.deployment_target = '8.0'
+  spec.ios.deployment_target = '8.0'
 
-  s.source_files = 'Color2UiColor/Classes/**/*'
+  spec.source_files = 'Color2UiColor/Classes/**/*'
   
-  # s.resource_bundles = {
+  # spec.resource_bundles = {
   #   'Color2UiColor' => ['Color2UiColor/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # spec.public_header_files = 'Pod/Classes/**/*.h'
+  spec.swift_version = '4.2'
+  spec.frameworks = 'UIKit', 'Foundation'
+  # spec.dependency 'AFNetworking', '~> 2.3'
 end

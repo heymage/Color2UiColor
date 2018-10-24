@@ -1,0 +1,22 @@
+{
+  "name": "Color2UiColor",
+  "version": "0.1.0",
+  "summary": "A short description of Color2UiColor.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Maurice Gerhardt/Color2UiColor",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Maurice Gerhardt": "mrcgrhrdt@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Maurice Gerhardt/Color2UiColor.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Color2UiColor/Classes/**/*"
+}
