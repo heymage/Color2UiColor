@@ -21,8 +21,5 @@
   },
   "source_files": "Color2UiColor/Classes/**/*",
   "swift_version": "4.2",
-  "frameworks": [
-    "UIKit",
-    "Foundation"
-  ]
+  "frameworks": "UIKit"
 }

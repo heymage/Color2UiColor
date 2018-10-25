@@ -36,6 +36,6 @@ Pod::Spec.new do |spec|
 
   # spec.public_header_files = 'Pod/Classes/**/*.h'
   spec.swift_version = '4.2'
-  spec.frameworks = 'UIKit', 'Foundation'
+  spec.frameworks = 'UIKit'
   # spec.dependency 'AFNetworking', '~> 2.3'
 end
