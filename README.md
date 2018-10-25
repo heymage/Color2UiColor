@@ -57,9 +57,7 @@ rgbToUIColor(r: Int, g: Int, b: Int, alpha: CGFloat)
 ```
 
 Example for method call with alpha value
-```
-// If you have to set the opacity do it like so:
-// alpha is a CGFloat
+```swift
 button.tintColor = c2uic.hexToUIColor(hex: "#b10034", alpha: 0.4)
 button.tintColor = c2uic.rgbToUIColor(r: 123, g: 456, b: 789, alpha: 0.75)
 ```
