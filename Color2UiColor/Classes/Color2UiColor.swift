@@ -14,6 +14,13 @@ public struct Color2UiColor {
     public func hexToUIColor(hex: String) -> UIColor {
         var hex = hex
         if hex.starts(with: "#") { hex.removeFirst() }
+        if hex.count == 3 {
+            if hex == "fff" {
+                hex = "ffffff"
+            } else if hex == "000" {
+                hex = "000000"
+            }
+        }
         
         let redSlice = hex.index(hex.endIndex, offsetBy: -4)
         let blueSlice = hex.index(hex.startIndex, offsetBy: 4)
@@ -25,6 +32,28 @@ public struct Color2UiColor {
         return UIColor(red: r, green: g, blue: b, alpha: 1.0)
     }
     
+    public func hexToUIColor(hex: String, alpha: CGFloat) -> UIColor {
+        var hex = hex
+        if hex.starts(with: "#") { hex.removeFirst() }
+        if hex.count == 3 {
+            if hex == "fff" {
+                hex = "ffffff"
+            } else if hex == "000" {
+                hex = "000000"
+            }
+        }
+        
+        let redSlice = hex.index(hex.endIndex, offsetBy: -4)
+        let blueSlice = hex.index(hex.startIndex, offsetBy: 4)
+        
+        let r = CGFloat( round((Float(UInt8(String(hex[..<redSlice]), radix: 16)!) / 255) * 100) / 100 )
+        let g = CGFloat( round((Float(UInt8(String(hex[redSlice..<blueSlice]), radix: 16)!) / 255) * 100) / 100 )
+        let b = CGFloat( round((Float(UInt8(String(hex[blueSlice...]), radix: 16)!) / 255) * 100) / 100 )
+        
+        return UIColor(red: r, green: g, blue: b, alpha: alpha)
+    }
+    
+    
     // Convert rgb values to an UIColor.
     public func rgbToUIColor(r: Int, g: Int, b: Int) -> UIColor {
         let r = CGFloat( round((Double(r) / 255) * 100) / 100 )
@@ -32,6 +61,14 @@ public struct Color2UiColor {
         let b = CGFloat( round((Double(b) / 255) * 100) / 100 )
         
         return UIColor(red: r, green: g, blue: b, alpha: 1.0)
+    }
+    
+    public func rgbToUIColor(r: Int, g: Int, b: Int, alpha: CGFloat) -> UIColor {
+        let r = CGFloat( round((Double(r) / 255) * 100) / 100 )
+        let g = CGFloat( round((Double(g) / 255) * 100) / 100 )
+        let b = CGFloat( round((Double(b) / 255) * 100) / 100 )
+        
+        return UIColor(red: r, green: g, blue: b, alpha: alpha)
     }
     
 }
