@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name             = 'Color2UiColor'
-  spec.version          = '0.1.2'
+  spec.version          = '0.1.3'
   spec.summary          = 'Color2UiColor is a hex, or rgb, to an UIColor converter.'
 
 # This description is used to generate tags and improve search results.
@@ -17,9 +17,7 @@ Pod::Spec.new do |spec|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  spec.description      =   <<-DESC
-                        Color2UiColor provides two methods to convert hex or rgb value to an UIColor object.
-                            DESC
+  spec.description      = "Color2UiColor provides two methods to convert hex or rgb value to an UIColor object."
 
   spec.homepage         = 'https://gitlab.com/mrcgrhrdt/color2uicolor'
   # spec.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -38,6 +36,6 @@ Pod::Spec.new do |spec|
 
   # spec.public_header_files = 'Pod/Classes/**/*.h'
   spec.swift_version = '4.2'
-  spec.frameworks = 'UIKit', 'Foundation'
+  spec.frameworks = 'UIKit'
   # spec.dependency 'AFNetworking', '~> 2.3'
 end

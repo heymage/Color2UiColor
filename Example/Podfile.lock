@@ -1,5 +1,5 @@
 PODS:
-  - Color2UiColor (0.1.0)
+  - Color2UiColor (0.1.2)
 
 DEPENDENCIES:
   - Color2UiColor (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Color2UiColor: cdc2f592be4b2d12a586cf00520bb2a5df4de0aa
+  Color2UiColor: f4b376140ac332d095ebd4da82b70d123a906877
 
 PODFILE CHECKSUM: 3b65d0a705799afff5b00dbc9b4e8d5f346e311a
 
