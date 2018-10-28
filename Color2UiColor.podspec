@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name             = 'Color2UiColor'
-  spec.version          = '0.1.4'
+  spec.version          = '0.1.5'
   spec.summary          = 'Convert hex and rgb values to UIColor objects simple.'
 
 # This description is used to generate tags and improve search results.
@@ -19,11 +19,11 @@ Pod::Spec.new do |spec|
 
   spec.description      = "Color2UiColor provides two methods to convert hex or rgb value to an UIColor object."
 
-  spec.homepage         = 'https://gitlab.com/mrcgrhrdt/color2uicolor'
+  spec.homepage         = 'https://github.com/mrcgrhrdt/Color2UiColor'
   # spec.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   spec.license          = { :type => 'MIT', :file => 'LICENSE' }
   spec.author           = { 'Maurice Gerhardt' => 'mrcgrhrdt@gmail.com' }
-  spec.source           = { :git => 'https://gitlab.com/mrcgrhrdt/color2uicolor.git', :tag => spec.version.to_s }
+  spec.source           = { :git => 'https://github.com/mrcgrhrdt/Color2UiColor', :tag => spec.version.to_s }
   spec.social_media_url = 'https://twitter.com/mrcgrhrdt'
 
   spec.ios.deployment_target = '8.0'
@@ -36,6 +36,6 @@ Pod::Spec.new do |spec|
 
   # spec.public_header_files = 'Pod/Classes/**/*.h'
   spec.swift_version = '4.2'
-  spec.frameworks = 'UIKit'
+  spec.frameworks = 'UIKit', 'Foundation'
   # spec.dependency 'AFNetworking', '~> 2.3'
 end
