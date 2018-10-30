@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
 
   spec.description      = "Color2UiColor provides two methods to convert hex or rgb value to an UIColor object."
 
-  spec.homepage         = 'https://github.com/mrcgrhrdt/Color2UiColor.git'
+  spec.homepage         = 'https://mrcgrhrdt.github.io/Color2UiColor/'
   # spec.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   spec.license          = { :type => 'MIT', :file => 'LICENSE' }
   spec.author           = { 'Maurice Gerhardt' => 'mrcgrhrdt@gmail.com' }
