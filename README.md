@@ -3,9 +3,6 @@
 [![Version](https://img.shields.io/cocoapods/v/Color2UiColor.svg?style=flat-square)](https://cocoapods.org/pods/Color2UiColor)
 [![License](https://img.shields.io/cocoapods/l/Color2UiColor.svg?style=flat-square)](https://cocoapods.org/pods/Color2UiColor)
 [![Platform](https://img.shields.io/cocoapods/p/Color2UiColor.svg?style=flat-square)](https://cocoapods.org/pods/Color2UiColor)
-[![downloads](https://img.shields.io/cocoapods/dt/Color2UiColor.svg?style=flat-square)](https://cocoapods.org/pods/Color2UiColor)
-[![docs](https://img.shields.io/cocoapods/metrics/doc-percent/Color2UiColor.svg?style=flat-square)](https://cocoapods.org/pods/Color2UiColor)
-
 
 ## Example
 
